@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', function (req, res) {
+  console.log("helo world");
   res.send('Hello World!')
 })
 
